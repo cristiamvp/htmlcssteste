@@ -7,6 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <title>Piellon</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menuMobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex'
+                }
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -55,9 +66,9 @@
                 </div>
                 <div class="banner3">
                     <div class="banner_title">TITULO 3</div>
-                    <div class="banner_hour">Segunda-Sexta <span>8.00-17.00</span></div>
-                    <div class="banner_hour">Sabado <span>8.00-12.00</span></div>
-                    <div class="banner_hour">Sdomingo <span>9.00-11.00</span></div>
+                    <div class="banner_hour">Segunda-Sexta <span>8.00 - 17.00</span></div>
+                    <div class="banner_hour">Sabado <span>8.00 - 12.00</span></div>
+                    <div class="banner_hour">Sdomingo <span>9.00 - 11.00</span></div>
                 </div>
 
             </div>
